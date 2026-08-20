@@ -1,0 +1,1 @@
+{"name":"case3-rag-worker","private":true,"scripts":{"check":"tsc --noEmit","dry-run":"wrangler deploy --dry-run"},"devDependencies":{"@cloudflare/workers-types":"^5.20260815.1","typescript":"^5.8.3","wrangler":"^4.124.0"}}
