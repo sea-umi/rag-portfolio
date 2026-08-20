@@ -4,8 +4,10 @@
 
 ## デモ
 
-- UI（Cloudflare Pages）: 未設定
+- UI（Cloudflare Pages）: https://104aec58.rag-portfolio.pages.dev
 - Worker API: `https://<your-worker-domain>`（公開可。実URLはデプロイ後に記載）
+
+Cloudflare Pages は今回、Wrangler による手動デプロイで公開しました。GitHub の `main` へ push したコードと、公開中のデプロイ内容は一致しています。今後自動デプロイへ移行する場合は、Cloudflare Pages と GitHub リポジトリの連携を設定してください。Worker API の公開URLは共有できますが、`GEMINI_API_KEY`、`INGEST_TOKEN` などの秘密情報は README やリポジトリへ記載せず、Cloudflare の Secret と環境変数で管理します。
 
 ## 概要
 

@@ -6,6 +6,6 @@
 - [x] README、MITライセンス、gitignoreを作成
 - [x] アーキテクチャと運用マニュアルを作成
 - [x] Phase 2提案を作成
-- [ ] 本番UIデプロイ（未実施）
+- [x] Cloudflare Pages UIをWranglerで手動デプロイ
 - [ ] 本番認証・認可（未実施）
-- [ ] GitHubへの公開操作（依頼範囲外・未実施）
+- [x] GitHubのmainへpushし、公開デプロイとの一致を確認
